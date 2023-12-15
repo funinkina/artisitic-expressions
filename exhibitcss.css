@@ -1,0 +1,108 @@
+body{
+    background-image: url("images/bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.navbar{
+    background-color:#291309;
+}
+
+.navbar-brand{
+    font-size: large;
+    font-weight: bold;
+    font-family: Montserrat;
+    margin-left: 5vw;
+}
+
+.home{
+    border-bottom: 2px solid #2C82C9;
+    border-radius: 2px;
+}
+
+.navbar-nav{
+    margin-left: 25vw;
+}
+
+.nav-item{
+    font-size: small;
+    font-family: Montserrat;
+    margin-left: 3vw;
+}
+
+.dropdown-menu{
+    background: none;
+    border: none;
+    margin-left: .5vw;
+    height: 15vh;
+    text-align: left;
+}
+
+.dropdown-item{
+    font-size: small;
+    font-family: Montserrat;
+    padding: 1;
+    color: aliceblue;
+    opacity: .8;
+}
+
+.dropdown-item:hover{
+    transition: .5s ease;
+}
+
+h1{
+    margin-top:25vh;
+    margin-left: 12vw;
+    color: bisque;
+    font-family: Montserrat;
+    letter-spacing: .2vw;
+}
+p{
+    width: 55vw;
+    color: white;
+    margin-left: 10.5vw;
+    padding: 2vw;
+    letter-spacing: .5vh;
+}
+
+.login{
+    text-decoration: none;
+    color: #291309;
+    font-size: medium;
+}
+.login:hover{
+    color: #291309;
+}
+.btn
+{
+    margin-left: 12vw;
+    border-radius:4vh ;
+    width: 15vh;
+    box-shadow: 0 20px 20px -17px rgba(255,16,39,0.5);
+}
+.btn:hover
+{
+    transition: .5s ease-in-out;
+    transform: scale(1.2);
+    box-shadow: 0 30px 45px -15px rgba(255,16,39,0.57);
+}
+
+.main{
+    float: right;
+    height: 70vh;
+    margin-top: -60vh;
+    margin-right: 2vw;
+}
+
+@media screen and (max-width: 992px) {
+    h1{
+        margin-top: 10vh;
+    }
+    .main {
+      margin-top: -20vh;
+      margin-right: -2vw;
+      max-height: 22vh;
+    }
+  }
