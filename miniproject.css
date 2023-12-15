@@ -1,19 +1,25 @@
 .form {
     width: 500px;
     border-radius: 20px;
-    height: 135vh;
+}
+
+.container {
+    height: 90vh;
+    margin-top: auto;
+    margin-bottom: auto;
+
 }
 
 .login-heading {
     font-size: 40px;
     font-weight: 700;
     text-transform: capitalize;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Montserrat', sans-serif;
 }
 
 .username {
     text-transform: capitalize;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
 }
 
